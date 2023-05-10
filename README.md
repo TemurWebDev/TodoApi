@@ -10,7 +10,7 @@ It is a To-Do Application developed with Django Rest Framework.
 - PUT   /api/tasks/:id/
 - PATCH   /api/tasks/:id/
 - DELETE   /api/tasks/:id/
-- GET   /api/tasks/to-do/
+- GET   /api/tasks/todo/
 - GET   /api/tasks/expired/
 - GET   /api/tasks/in_progress/
 - GET   /api/tasks/done/
@@ -23,8 +23,8 @@ It is a To-Do Application developed with Django Rest Framework.
 - pip install -r requirements.txt
 
 # Run the commands to generate the database
-python manage.py makemigrations
-python manage.py migrate
+- python manage.py makemigrations
+- python manage.py migrate
 
 # Generate super user
 python manage.py createsuperuser
